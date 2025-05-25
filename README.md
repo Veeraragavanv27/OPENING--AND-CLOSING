@@ -42,7 +42,7 @@ import matplotlib.pyplot as plt
 
 img1=np.zeros((300,600),dtype='uint8')
 font=cv2.FONT_ITALIC
-img2=cv2.putText(img1,"jaga",(5,100),font,3,(255,0,0),5,cv2.LINE_AA)
+img2=cv2.putText(img1,"veera",(5,100),font,3,(255,0,0),5,cv2.LINE_AA)
 cv2.imshow("Original",img2)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
@@ -65,16 +65,18 @@ cv2.destroyAllWindows()
 ## Output:
 
 ### Display the input Image
-![WhatsApp Image 2025-05-17 at 11 34 51_bc87bfd4](https://github.com/user-attachments/assets/43e1cfc9-e640-46ca-9341-910ae356f930)
+![image](https://github.com/user-attachments/assets/b6510599-1ab4-48d0-acc1-d33946646237)
+
 
 
 
 
 ### Display the result of Opening
-![WhatsApp Image 2025-05-17 at 11 35 21_ee09344d](https://github.com/user-attachments/assets/9ee3b85d-ef4e-42be-95f8-af2b873d0c71)
+![image](https://github.com/user-attachments/assets/eeaa1704-0b83-4f7c-ab77-15089824595a)
 
 ### Display the result of Closing
-![WhatsApp Image 2025-05-17 at 11 35 44_ee1bd946](https://github.com/user-attachments/assets/fb56eefd-3c5b-423c-9f28-37491759cfb7)
+![image](https://github.com/user-attachments/assets/b56a856b-3f18-4e39-8f84-bc72742528aa)
+
 
 
 
